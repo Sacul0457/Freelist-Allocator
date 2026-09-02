@@ -9,7 +9,7 @@ fast and efficient reclaimation!
 ## Features
 The main functions for this allocator are:
 - `Arena *arena_init()`
-- `void arena_destory(Arena *arena)`
+- `AllocatorResult arena_destroy(Arena *arena)`
 - `void *arena_malloc(Arena *arena)`
 - `void *arena_realloc(Arena *arena, void *src, const size_t new_size)`
 - `void arena_free(Arena *arena, void *src)`
